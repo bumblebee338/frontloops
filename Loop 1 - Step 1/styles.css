@@ -1,0 +1,80 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    width: 75%;
+    color:blue;
+    margin-top:25%;
+    margin-left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.mobile{
+    text-align: center;
+    padding: .5rem;
+   width: 35rem;
+}
+.mobile:hover{
+    background-color: rgb(245, 245, 250);
+}
+.desktop{
+    text-align: center;
+    padding: .5rem;
+    width: 35rem;
+}
+.desktop:hover{
+    background-color: rgb(245, 245, 250);
+}
+.television{
+    text-align: center;
+    padding: .5rem;
+    width: 35rem;
+}
+.television:hover{
+    background-color: rgb(245, 245, 250);
+}
+h2{
+    text-transform: uppercase;
+    padding: 1rem;
+    letter-spacing: .5rem;
+}
+
+blockquote{
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: .5rem;
+}
+.mobile blockquote{
+    margin-top: .8rem;
+}
+p{
+    color: black;
+    padding: .2rem;
+    width: 79%;
+    text-align: center;
+    margin-left: 15%;
+}
+sup{
+    font-size: 1rem;
+}
+sub{
+    font-size: 1rem;
+}
+.mobile_pic{
+    width: 25%;
+}
+.desktop_pic{
+    width: 25%;
+}
+.television_pic{
+    width: 25%;
+}
