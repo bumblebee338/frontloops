@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    font-family: 'Roboto',sans-serif;
+}
+.main{
+    width: 27%;
+    background-color: white;
+    margin: 6rem auto;
+}
+.mark{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: blue;
+    padding: 1rem 1rem 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.cross{
+    text-decoration: none;
+    color: pink;
+}
+
+.today{
+    display: flex;
+    padding: 1rem;
+}
+h5{
+    color: lightblue;
+    font-size: 1rem;
+}
+h6{
+    color: lightblue;
+}
+.line{
+    color: lightblue;
+}
+.send{
+    display: flex;
+    justify-content: space-between;
+    adding: 1rem;
+    font-weight: 700;
+    color: blue;
+}
+.entermsg{
+    color: blueviolet;
+}
+input{
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+}
+::placeholder{
+    color: blueviolet;
+}
+input:focus{
+    outline: none;
+}
+.sendbtn{
+    cursor: pointer;
+    padding: 1rem;
+}
+.line{
+    text-align: center;
+}
+.time1{
+    color: lightblue;
+    padding: 15px;
+}
+.chat-1{
+    padding: 10px;
+    background-color: lightblue;
+    width: 80%;
+    margin-left: 10px;
+}
+.time2{
+    color: lightblue;
+    padding: 10px;
+    float: right;
+    margin-top: 10px;
+}
+.chat-2{
+    padding: 10px;
+    background-color: lightblue;
+    width: 80%;
+    margin-right: -50px;
+    float: right;
+    margin-top: 25px;
+}
+.time3{
+    color: lightblue;
+    padding: 5px;
+    margin-top: 100px;
+
+}
+.chat-3{
+    padding: 10px;
+    background-color: lightblue;
+    width: 25%;
+    margin-left: 5px;
+    
+}
+.chat-4{
+    padding: 15px;
+    background-color: rgb(104, 177, 201);
+    width: 60%;
+    margin-right: 10px;
+    float: right;
+    margin-top: 20px;
+}
