@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+.main{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 10% auto;
+}
+.heading{
+    display: grid;
+    grid-template-columns: 1fr .5fr 1fr;
+}
+h1{
+    color: blueviolet;
+    font-family: "Prompt", sans-serif;
+    font-weight: 900;
+    font-size: 3.8rem;
+}
+.underscore{
+    /* font-size: 25px;
+    font-weight: 900;
+    font-family: "Prompt", sans-serif;
+    color: pink;  */
+    background-color: pink;
+    height: 5px;
+    width: 50%;
+    transform: translate(15px,60px);
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: pink;
+    transform: translateY(-1.1rem);
+}
+h5{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: pink;
+}
+h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.flight-details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 2rem;
+    text-align: left;
+    margin-left: 1.7rem;
+}
+.passeger-details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2rem;
+    margin-left: 1.7rem;
+}
+.details{
+    text-align: left;
+    
+}
+.class{
+    margin-top: 1.5rem;
+}
+img{
+    width: 80%;
+}
+
+
+@media only screen and (max-width:1000px){
+    .main{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:800px){
+    .main{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:550px){
+    .main{
+        width: 80%;
+    }
+}
