@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+    background-color: rgb(221, 194, 145);
+}
+.main{
+    display: flex;
+    width: 70%;
+    height: 80vh;
+    margin: 80px auto;
+}
+.left{
+    background-color: rgb(54, 50, 50);
+    flex: 0 0 40%;
+    padding: 50px;
+    color: white;
+    flex-direction: column ;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    color: white;
+}
+hr{
+    margin-top: 15px;
+    height: 4px;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.author_pic{
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.right{
+    background-color: white;
+    flex: 1;
+    padding: 40px 30px 20px 30px;
+    flex-direction: column ;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-size: 25px;
+    padding: 10px;
+}
+span{
+    font-size: 40px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chatbox{
+    display: flex;
+    align-items: center;
+    width: 83px;
+    justify-content: space-between;    
+}
+
+@media only screen and (max-width:1400px){
+    p{
+        font-size: 22px;
+        padding: 8px;
+    }
+}
+@media only screen and (max-width:1200px){
+    p{
+        font-size: 20px;
+        padding: 8px;
+    }
+    span{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    p{
+        font-size: 18px;
+        padding: 5px;
+    }
+    span{
+        font-size: 20px;
+    }
+
+    .right{
+        padding: 20px 10px 20px 15px;
+    }
+}
