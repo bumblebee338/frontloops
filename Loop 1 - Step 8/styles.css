@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+main{
+    width: 65%;
+    height: 80vh;
+    background-color: white;
+    margin: 60px auto;
+    display: flex;
+}
+.left{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    flex: 0 0 35%;
+}
+.back{
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 0 0 20px;
+    display: flex;
+    color: black;
+}
+.back:hover{
+    color: blue;
+}
+.arrow_back{
+    width: 14px;
+    margin-right: 2px;
+}
+/*********************************************************/
+.right{
+    flex: 1;
+    padding: 40px 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    float: right;
+}
+.nav_item{
+    list-style: none;
+    text-transform: uppercase;
+}
+.nav_link:link,
+.nav_link:visited{
+    text-decoration: none;
+    color: #bcb0b0;
+}
+.nav_link:hover,
+.nav_link:active{
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    font-size: 70px;
+    font-family: "Playfair";
+    font-weight: 100;
+    display: block;
+    width: 70%;
+    display: block;
+    align-items: flex-end;
+    margin: 100px 20px 20px 80px;
+    letter-spacing: -3px;
+}
+span{       
+    letter-spacing: -6px;
+}
+
+h3{
+    margin: 20px 20px 20px 80px;
+    font-weight: 100;
+}
+.content{
+    display: flex;
+    width: 80%;
+    margin: 30px 20px 20px 80px;
+
+}
+.para{
+    font-size: 20px;
+}
+.preview_pic{
+    position: relative;
+}
+.preview{
+    width: 80%;
+}
+.play{
+    background-color: #efe7e7;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 8%;
+}
+.view_photo{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    text-transform: uppercase;
+}
+.arrow-forward{
+    width: 20px;
+    margin-left: 5px;
+}
