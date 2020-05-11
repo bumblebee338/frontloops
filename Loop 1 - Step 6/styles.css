@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;  
+    position: absolute;
+}
+.main{
+    background-color: white;
+    display: flex;
+    width: 70%;
+    margin: 3rem auto;
+}
+.content{
+    flex: 0 0 60%;
+    padding: 2rem 3rem;
+}
+.head{
+    padding: 0.5rem;
+    padding-left: 0;
+    font-size: 50px;
+    font-weight: 100;
+}
+.para{
+    padding: 0.2rem;
+    padding-left: 0;
+    color: grey;
+}
+.googleplu,
+.twitter,
+.facebook{
+    display: flex;
+    text-transform: uppercase;
+    border: 1px solid grey;
+    padding: 1rem;
+    width: 100%;
+    color: grey;
+    cursor: pointer;
+}
+.googleplu:hover,
+.twitter:hover,
+.facebook:hover{
+    box-shadow: 0 3px 15px rgba(0,0,0,0.5);
+}
+.googleplu{  
+    margin-top: 4rem;
+}
+.facebook{
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+.twitter{
+    padding: 1rem;
+}
+.plus{
+    width: 1.2rem;
+    margin-right: 25%;
+}
+.face{
+    width: 1.2rem;
+    margin-right: 25%;
+}
+.twit{
+    width: 1.2rem;
+    margin-right: 25%;
+}
+.pic{
+    flex:1 ;
+}
+.sidepic{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.signup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.p-signup{
+    font-weight: 900;
+}
+.signup-btn:visited,
+.signup-btn:link{
+    text-decoration: none;
+    color: grey;
+    font-weight: 900;
+}
+.signup-btn:hover,
+.signup-btn:active{
+    color: black;
+}
